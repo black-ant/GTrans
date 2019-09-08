@@ -6,7 +6,7 @@
     <parent>
         <artifactId>gang-gexpro-core</artifactId>
         <groupId>com.gang.gexpro</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -15,8 +15,7 @@
     <packaging>pom</packaging>
 
     <name>gang-gexpro-core-impl</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+
     <modules>
         <module>rest-service</module>
         <module>persistence-mybatis</module>
@@ -29,12 +28,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>

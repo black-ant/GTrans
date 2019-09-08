@@ -1,6 +1,8 @@
 package com.gang.gexpro.core.persistence.mybatis.dao;
 
 import com.gang.gexpro.core.persistence.mybatis.entity.mapper.TestMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class ExampleDAO {
@@ -10,7 +12,7 @@ public class ExampleDAO {
     @Autowired
     TestMapper testMapper;
 
-    public void test(){
+    public void test() {
 
     }
 }

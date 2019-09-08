@@ -5,11 +5,35 @@
     <parent>
         <artifactId>gang-gexpro-core</artifactId>
         <groupId>com.gang.gexpro</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>com-gang-gexpro-core-start</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gang.gexpro</groupId>
+            <artifactId>gang-gexpo-core-persistence-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gang.gexpro</groupId>
+            <artifactId>gang-gexpro-core-common-lib</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gang.gexpro</groupId>
+            <artifactId>gang-gexpro-core-rest-service</artifactId>
+            <version>${gexpro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 </project>

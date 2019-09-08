@@ -5,11 +5,23 @@
     <parent>
         <artifactId>gang-gexpro-core-impl</artifactId>
         <groupId>com.gang.gexpro</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>gang-gexpro-core-rest-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.gang.gexpro</groupId>
+            <artifactId>gang-gexpo-core-persistence-api</artifactId>
+            <version>${gexpro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gang.gexpro</groupId>
+            <artifactId>gang-gexpro-core-common-lib</artifactId>
+            <version>${gexpro.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
