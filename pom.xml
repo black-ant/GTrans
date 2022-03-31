@@ -29,7 +29,7 @@
         <gexpro.version>1.0</gexpro.version>
 
         <!-- spring -->
-        <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
 
         <!-- DAO -->
         <generator.version>1.3.7</generator.version>
